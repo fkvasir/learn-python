@@ -104,3 +104,5 @@ print(my_favorite_number)
 print(str(my_favorite_number))
 print(str(my_favorite_number) + " is my favorite number.")
 # when combining number with a string, put the number in the variable and assign "str"
+# new code comment
+# mathematical operations
