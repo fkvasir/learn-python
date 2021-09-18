@@ -38,4 +38,13 @@ print(intro3.upper)
 num4 = input("Enter a dividend: ")
 num5 = input("Enter a divisor: ")
 remainder = float(num4) % float(num5)
-print(remainder)
+print(remainder) # Since we can't concatenate an integer with a string (so I assign the value of the remainder as a string)
+
+# For EXAMPLE
+from math import *
+intro3 ="for finding the square root"
+print(intro3.upper)
+num4 = input("Enter a dividend: ")
+num5 = input("Enter a divisor: ")
+remainder = float(num4) % float(num5)
+print("The square root of your want number" + str(remainder))
