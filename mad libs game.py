@@ -15,3 +15,4 @@ landform = input("ENTER A TYPE OF NATURE BEAUTY FOUND IN LAND: ")
 positive = input("ENTER THE OPPOSITE TERM FOR DESPAIR: ")
 print("From a " + landform + " of despair")
 print("A stone of " + positive)
+# ok
