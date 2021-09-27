@@ -49,3 +49,13 @@ num5 = input("Enter a divisor: ")
 remainder = float(num4) % float(num5)
 print("The square root of your want number" + str(remainder))
 # This is only for my practice in coding
+
+from math import*
+finding_difference = "in order to find the difference of two numbers"
+def my_introduction(introd):
+  print(introd.upper())
+my_introduction(finding_difference)
+enter = input ("Enter an integer: ")
+integer2 = input ("Enter another integer: ")
+difference = float(enter) - float(integer2)
+print(" The difference of two numbers is: " + int(difference))
