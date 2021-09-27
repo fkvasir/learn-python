@@ -58,4 +58,4 @@ my_introduction(finding_difference)
 enter = input ("Enter an integer: ")
 integer2 = input ("Enter another integer: ")
 difference = float(enter) - float(integer2)
-print(" The difference of two numbers is: " + int(difference))
+print(" The difference of two numbers is: " + int(difference)) # for mastery
