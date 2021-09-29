@@ -18,3 +18,4 @@ lucky_numbers.sort()
 print(lucky_numbers)
 lucky_numbers.reverse
 print(lucky_numbers)
+# past changes are saved up to the next element
