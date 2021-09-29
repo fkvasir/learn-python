@@ -1,5 +1,5 @@
 lucky_numbers = [3, 7, 0, 10, 9]
-friends = ["Ricster", "Rexon", "Sharmaine", "Rayne", "Amanie", "Jhoanna", "Jlou"]
+friends = ["Ricster", "Rexon", "Sharmaine", "Rayne", "Amanie", "Jhoanna", "Wakashi"]
 friends.extend(lucky_numbers) # extend is the given set of lists to another lists
 print(friends)
 friends.append("Jin Seyon") # append means to add
