@@ -2,7 +2,7 @@ lucky_numbers = [3, 7, 0, 10, 9]
 friends = ["Ricster", "Rexon", "Sharmaine", "Rayne", "Amanie", "Jhoanna", "Wakashi"]
 friends.extend(lucky_numbers) # extend is the given set of lists to another lists
 print(friends)
-friends.append("Jin Seyon") # append means to add
+friends.append("Jin Seyon") # append means to add another element from the list
 print(friends)
 friends.insert(7, "Ricster") # all numbers or variables after index 7 are getting pushed to the right
 friends.insert(0 , "Fulgent")
