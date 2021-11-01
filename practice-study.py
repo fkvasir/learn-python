@@ -63,13 +63,16 @@ Use three quote-marks before and at the end of the comments.
 """
 
 # WORKING WITH STRINGS
+
 phrase = "Hi! my name is Fulgent"
 print(phrase)
 print(phrase.isupper())
 print(phrase.upper())
 print(phrase.lower())
 print(phrase.upper().isupper())
+
 # length and position of characters
+
 print(len(phrase))
 print(phrase[0])
 print(phrase[2])
