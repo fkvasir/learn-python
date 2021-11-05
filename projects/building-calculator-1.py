@@ -2,7 +2,7 @@ print("For adding digits")
 number_1 = input("Enter a number: ")
 number_2 = input("Enter the second number: ")
 result = number_1 + number_2
-print(result) # Python will just add the numbers as a digit because it is a string
+print(result) # //Python will just add the numbers as a digit because it is a string//
 
 """
  Python will assume that it is a string
