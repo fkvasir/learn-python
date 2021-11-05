@@ -1,6 +1,6 @@
-# // sample applications for "DICTIONARY"//
+# // sample-applications-for-"DICTIONARY"//
 monthConversions = {
-  "Jan": "January", # --> /keys should be unique/
+  "Jan": "January", # --> /keys-should-be-unique/
   "Feb": "February",
   "Mar": "March",
   "Apr": "April",
@@ -11,7 +11,7 @@ monthConversions = {
   "Sep": "September",
   "Nov": "November",
   "Dec": "December"
-
+# //changing-keys-into-numbers-is-acceptable//
 }
 
 
@@ -25,6 +25,7 @@ print(monthConversions.get("Sep"))
 print(monthConversions.get("Love")) # //not included in the key//
 print(monthConversions.get("Love", "Invalid key")) # //default value// 
 print(monthConversions.get("Love", "Not a valid key")) # //default value// 
+
 
 
 

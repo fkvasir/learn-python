@@ -6,4 +6,4 @@ The tuple cant be changed or modified
 """
 print(coordinates[0]) 
 print(coordinates[1])
-# tuple is different from list but does the same
+# tuple-is-different-from-list

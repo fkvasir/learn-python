@@ -20,7 +20,6 @@ def paragraph_breaker(yeah):
 
 paragraph_breaker(breaker)
 
-landform = input("ENTER A TYPE OF NATURE BEAUTY FOUND IN LAND: ")
+landform = input("ENTER A TYPE OF NATURE BEAUTY FOUND IN LAND:\n")
 print("From a " + landform + " of despair")
 print("A stone of " + (input("ENTER THE OPPOSITE TERM FOR DESPAIR: ")))
-#okay
