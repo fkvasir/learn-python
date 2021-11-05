@@ -33,22 +33,22 @@ number2 = float(input("Input a number that you like:\n----->"))
 
 if operator == "add" or operator == "addition" or operator == "+":
 # //add-->float//
-  print(number1 + number2)
+  print(float(number1 + number2))
 
 elif operator == "subtract" or operator == "subtraction" or operator == "-":
 # //subtract --> float//
-  print(number1 - number2)
+  print(float(number1 - number2))
 
 elif operator == "modul" or operator =="%":
-  print(number1 % number2)
+  print(int(number1 % number2))
 
 elif operator == "multiply" or operator == "multiplication" or operator == "*":
 # //multiplication --> float// else-if
-  print(number1 * number2)
+  print(float(number1 * number2))
 
 elif operator == "divide" or operator == "division" or operator == "/":
 # //divide --> float//
-  print(number1/number2)
+  print(float(number1/number2))
 
 else:
 # // no mathematical operations//
