@@ -15,3 +15,11 @@ def add(numero, numeru):
   return numero + numeru
 result1 = add(13, 14)
 print(result1)
+
+def divide(number_1, number_2):
+  return result2
+
+number_1 = input("Enter number:\n")
+number_2 = input("Enter number:\n")
+result2 = float(number_1) / float(number_2)
+print(result2)
