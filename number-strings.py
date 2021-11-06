@@ -1,5 +1,5 @@
 # BASIC NUMBER STRINGS
-from math import *
+from math import * # -->/use-mathimport-to-obtain-math-features/
 
 print(8*3)
 print(pow(9, 2))
