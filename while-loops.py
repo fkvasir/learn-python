@@ -16,9 +16,7 @@ x = int(input("Enter a number in cm\n-> "))
 y = int(input("Input a second larger number\n-> "))
 CM_to_Inches = 0.3937
 g = 0
-while g <= 11:
-  if y == x + 10:
-    print(x ,  (x+g) * CM_to_Inches)
-  else:
-    print("\nError: Invalid Intervals\n")
-  g += 11
+while y == x + 10:
+  print(x ,  (x * CM_to_Inches))
+  y += 1
+  x += 1
