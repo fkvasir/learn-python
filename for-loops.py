@@ -27,10 +27,10 @@ for cruhsi in crhs:
     print("-since g10")
   print(cruhsi)
 print("\n~~~~~~~~~\n")
-for index in crhs:
-  if index == 0:
+for cruhsi in crhs:
+  if cruhsi == [0]:
     print("firstIteration")
-  if index == 1:
+  elif cruhsi == [1]:
     print("secondIteration")
   else:
     print("lastIteration")
