@@ -15,7 +15,7 @@ if y == x + 10:
     g += 1
     x += 1
 else:
-  print("Invalid interval")121
+  print("Invalid interval")
 first = int(input("Enter a number in inches(should be a 5 interval numbers)\nhere => "))
 error = "ERROR: interval should be 5"
 second = int(input("Enter second number where you want to stop converting\nhere => "))
