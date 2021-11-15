@@ -13,7 +13,7 @@ print("\n~~~~~~~~~\n")
 for index in range(7):
   print(index)
 print("\n~~~~~~~~~\n")
-for index in range(len(crhs)): #the-same-as-the-first-but-w/range
+for index in range(len(crhs)): # //the-same-as-the-first-but-w/range//
   print(crhs[index])
 print("\n")
 for cruhsi in crhs:
