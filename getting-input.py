@@ -1,4 +1,4 @@
-# This fundamentals is used for interacting with users!!!!
+# /This fundamentals is used for interacting with users/
 name = input("ENTER YOUR NAME: ")
 print("Hello " + name + "!")
 
