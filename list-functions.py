@@ -9,7 +9,7 @@ friends.insert(0 , "Fulgent")
 print(friends) 
 friends.remove("Ricster") # /remove-the-first-[Ricster]/
 print(friends)
-friends.clear # empty lists, removes every single element of the list
+friends.clear # /empty_lists=removes-every-single-element=>list/
 print(friends)
 friends.pop() # pops an element off the list
 # POP removes the last element
