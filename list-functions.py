@@ -7,7 +7,7 @@ print(friends)
 friends.insert(7, "Ricster") # /all-numbers|variables-after-index-pushed-to-the-right/
 friends.insert(0 , "Fulgent")
 print(friends) 
-friends.remove("Ricster") # remove the first "Ricster"
+friends.remove("Ricster") # /remove-the-first-[Ricster]/
 print(friends)
 friends.clear # empty lists, removes every single element of the list
 print(friends)
