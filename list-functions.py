@@ -1,10 +1,10 @@
 lucky_numbers = [3, 7, 0, 10, 9]
 friends = ["Ricster", "Rexon", "Sharmaine", "Rayne", "Amanie", "Jhoanna", "Jlou"]
-friends.extend(lucky_numbers) # extend is the given set of lists to another lists
+friends.extend(lucky_numbers) # /extend-is-the-given-set-of-lists-to-another-lists/
 print(friends)
-friends.append("Jin Seyon") # append means to add
+friends.append("Jin Seyon") # /append-to-add/
 print(friends)
-friends.insert(7, "Ricster") # all numbers or variables after index 7 are getting pushed to the right
+friends.insert(7, "Ricster") # /all-numbers|variables-after-index-pushed-to-the-right/
 friends.insert(0 , "Fulgent")
 print(friends) 
 friends.remove("Ricster") # remove the first "Ricster"
