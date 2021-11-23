@@ -6,4 +6,4 @@ def to_thepower(base_num, power_num):
     result = result * base_num
   return result
 
-print(raise_to_power(3,2))
+print(to_thepower(3,2))
