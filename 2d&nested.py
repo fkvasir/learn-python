@@ -8,3 +8,10 @@ number_s = [
 
 print(number_s[0][2])
 print(number_s[2][1])
+# /nested-forloops/
+for row in number_s:
+  print(row)
+
+for row in number_s:
+  for column in row:
+    print(column)
