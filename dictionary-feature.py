@@ -14,9 +14,6 @@ monthConversions = {
   "Dec" : "December"
 # /changing-keys-into-numbers-is-acceptable/-->/as-long-as-unique/
 }
-
-
-
 print(monthConversions[10])
 print(monthConversions["Aug"]) # <-----/invalid---using-brackets=strict/
 print(monthConversions[1])
@@ -26,7 +23,3 @@ print(monthConversions.get("Sep"))
 print(monthConversions.get("Love")) # /not-included-in-the-key/
 print(monthConversions.get("Love", "Invalid key")) # /default-value/
 print(monthConversions.get("Love", "Not a valid key")) # /default-value/ 
-
-
-
-
