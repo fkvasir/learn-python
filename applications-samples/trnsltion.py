@@ -1,3 +1,4 @@
+# /sample-translation//cat-language/
 def trnsltr(phrase):
   translation = ""
   for letter in phrase:
