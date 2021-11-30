@@ -27,4 +27,4 @@ if second == first + 5:
     first += 1
     f += 1
 else:
-  print(error.upper)
+  print(error.upper())
