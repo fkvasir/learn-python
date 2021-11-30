@@ -23,7 +23,7 @@ print(trnslte(input("Enter a word =>")))
 def add_lang(sentence):
   lngge = ""
   for lett in sentence:
-    if lett.lower !in "AEIOU":
+    if lett.upper() in "AEIOU":
       if lett.islower():
         lngge = lngge + "ba"
       else:
