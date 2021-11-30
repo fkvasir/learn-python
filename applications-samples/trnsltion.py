@@ -21,6 +21,14 @@ def trnslte(phrse):
   return translation
 print(trnslte(input("Enter a word =>")))
 def add_lang(sentence):
-  language = ""
+  lngge = ""
   for lett in sentence:
-    if lett.lower !in "AEIOU"
+    if lett.lower !in "AEIOU":
+      if lett.islower():
+        lngge = lngge + "ba"
+      else:
+        lngge = lngge + "Ba"
+    else:
+      lngge = lngge + lett
+  return lngge
+print(add_lang(input("To-be-translated~~ ")))
