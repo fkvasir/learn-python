@@ -32,4 +32,3 @@ def add_lang(sentence):
       lngge = lngge + lett
   return lngge
 print(add_lang(input("To-be-translated~~ ")))
-# /the-fuck-is-wrong-with-my-code??/
