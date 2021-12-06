@@ -12,3 +12,4 @@ try:
     print("Invalid interval")
 except:
   print("INVALID")
+# /try-and-except-are-used-to-assign-what-to-do-for-expected-errors/
