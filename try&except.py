@@ -13,4 +13,4 @@ try:
 except:
   print("INVALID")
 # /try-and-except-are-used-to-assign-what-to-do-for-expected-errors/
-# my-lazyass-started-procrastinating
+# my-lazyass-starts-procrastinating
