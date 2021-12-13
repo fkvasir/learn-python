@@ -5,3 +5,8 @@ open("file.txt", "r+")# all the power of reading and writing
 """
 The sample above lets you open, read, write or append file. 
 """
+sample_file = open("file.txt", "r")
+
+print(sample_file.read())
+
+sample_file.close()
