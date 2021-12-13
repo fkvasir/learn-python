@@ -7,6 +7,7 @@ The sample above lets you open, read, write or append file.
 """
 sample_file = open("file.txt", "r")
 
-print(sample_file.read())
+print(sample_file.readline())
+print(sample_file.readline())
 
 sample_file.close() 
