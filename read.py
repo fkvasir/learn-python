@@ -9,4 +9,4 @@ sample_file = open("file.txt", "r")
 
 print(sample_file.read())
 
-sample_file.close()
+sample_file.close() 
