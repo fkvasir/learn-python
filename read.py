@@ -13,7 +13,7 @@ print(sample_file.readlines()[1])
  readlines automatically read all the lines of the file.
  readlines with an indicator automatically reads the first line of the file without grouping.
 """
-# can also apply for loops in an openfile
+# /can also apply for loops in an openfile/
 for person in sample_file.readlines():
   print(person)
 sample_file.close() 
