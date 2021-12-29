@@ -1,3 +1,3 @@
-examplefile = open("file.txt", "r")
+examplefile = open("file.txt", "a")
 print(examplefile.read())
 examplefile.close()
