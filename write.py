@@ -6,3 +6,6 @@ examplefile = open("file.txt", "a")
 examplefile.write("\nKelly - Biology")
 examplefile.close()
 
+examplefile = open("file.txt", "w") #
+examplefile.write("\nKelly - Biology")
+examplefile.close()
