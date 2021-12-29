@@ -3,5 +3,6 @@ print(examplefile.read())
 examplefile.close()
 
 examplefile = open("file.txt", "a")
-examplefile.write("Michael - Physical Education")
+examplefile.write("\nKelly - Biology")
 examplefile.close()
+
