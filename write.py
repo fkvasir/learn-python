@@ -3,7 +3,7 @@ print(examplefile.read())
 examplefile.close()
 
 examplefile = open("file.txt", "a") # /adding-some-other-data-to-the-existing-file/
-examplefile.write("\nKelly - Biology")
+examplefile.write("\nJelly - Biology")
 examplefile.close()
 
 examplefile = open("file.txt", "w") # /overwrite-the-existing-file/
