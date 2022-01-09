@@ -16,6 +16,6 @@ examplefile.write("\nKelly - Biology") # /erasing-the-existing-file-and-writing-
 examplefile.close()
 
 # WEBPAGE
-examplefile = open("file.html", "w") # /overwrite-the-existing-file/
+examplefile = open("file.html", "w") # ---> overwrite-the-existing-file/
 examplefile.write("<p> This is an HTML page</p>") # /erasing-the-existing-file-and-writing-a-new-one/
 examplefile.close()
