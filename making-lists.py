@@ -19,7 +19,7 @@ print("___________________\n")
 friends = ["Minju", "Nagyung" , "Tzuyu"] # in coding, always start from zero 
 
 # --> each element of friends has a corresponding index
-# Minju = 0, Nagyung = 1, Tzuyu = 2 meanwhile if the index is negative(-) it starts from the zero Minju = -3, Nagyung = -2, Tzuyu = -1
+# //  Minju = 0, Nagyung = 1, Tzuyu = 2 meanwhile if the index is negative(-) it starts from the zero Minju = -3, Nagyung = -2, Tzuyu = -  //
 
 print(friends[2])
 print(friends[-3])
