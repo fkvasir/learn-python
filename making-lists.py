@@ -41,7 +41,7 @@ print(close[1:4])
 print(close[3:4])
 
 print("_____________________________\n")
-# Modifying element
+# MODIFYING ELEMENT
 print("Modifying element")
 close[1] = "Minjoo"
 print(close[1])
