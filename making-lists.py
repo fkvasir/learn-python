@@ -45,4 +45,4 @@ print("_____________________________\n")
 print("Modifying element")
 close[1] = "Minjoo"
 print(close[1])
-# // Basically just changing one value of an element without changing others //
+# // Basically just changing one value of an element without changing others // 
