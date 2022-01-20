@@ -32,8 +32,8 @@ def _is_matrix_spd(matrix: np.ndarray) -> bool:
     # Get eigenvalues and eignevectors for a symmetric matrix.
     eigen_values, _ = np.linalg.eigh(matrix)
 
-    # Check sign of all eigenvalues.
-    # np.all returns a value of type np.bool_
+    # / Check sign of all eigenvalues.
+    # / np.all returns a value of type np.bool_
     return bool(np.all(eigen_values > 0))
 def _create_spd_matrix(dimension: int) -> Any:
     """
