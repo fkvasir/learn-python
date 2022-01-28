@@ -21,12 +21,12 @@ examplefile.write("<p> This is an HTML page</p>") # /erasing-the-existing-file-a
 examplefile.close()
 
  """
- >>> examplefile = open("file.txt", "r")
- ... for opening existing files
- >>> examplefile = open("file.txt", "a")
- ... adding-some-other-data-to-the-existing-file
- >>> examplefile = open("file.txt", "w")
- ... overwrite-the-existing-file
- >>> examplefile = open("file.txt", "w") 
- ... overwrite-the-existing-file
+  >>> examplefile = open("file.txt", "r")
+  ... for opening existing files
+  >>> examplefile = open("file.txt", "a")
+  ... adding-some-other-data-to-the-existing-file
+  >>> examplefile = open("file.txt", "w")
+  ... overwrite-the-existing-file
+  >>> examplefile = open("file.txt", "w") 
+  ... overwrite-the-existing-file
  """
