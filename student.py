@@ -1,2 +1,3 @@
 class student:
-  
+
+  def 
