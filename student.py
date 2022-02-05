@@ -1,3 +1,4 @@
 class student:
 
-  def 
+  def __init__(self):
+    
