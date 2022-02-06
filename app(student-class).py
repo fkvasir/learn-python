@@ -1,1 +1,1 @@
-from class&object(student) import student
+from student-class import student
