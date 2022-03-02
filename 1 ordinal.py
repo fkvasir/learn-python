@@ -1,8 +1,14 @@
-import time
-name = "Lynn"
+#No. 1
+name = ["L","y","n","n","i","e"]
+w = ord(name[0])
+x = ord(name[1])
+y = ord(name[2])
+z = ord(name[3])
+print(x)
 
-def ordinalname(n):
-  for i in name:
-    print(ord(i), end =" ")
-    time.sleep(.15)
-  print()
+"""
+No. 2 - Compute the following equation:
+>>> a
+5(x^3/2) + 3x^2 + 11
+"""
+def compute():
