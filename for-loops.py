@@ -35,3 +35,14 @@ for cruhsi in crhs:
   else:
     print("lastIteration")
 print("finish")
+print("\n\n")
+
+
+for i in range(0,11):
+  print(i)
+
+for i in range(0,11):
+  if i == 5:
+    print ("Ohlala")
+    continue
+  print(i)
