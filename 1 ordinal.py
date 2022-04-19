@@ -34,4 +34,4 @@ try:
     h = float(l)+float(n)+11
     return h
 except:
-  print("wrong1")
+  print("Error")

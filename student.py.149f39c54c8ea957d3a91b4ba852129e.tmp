@@ -9,4 +9,4 @@ class student: # overview of the *student*
     self.major = major
     self.GPA = GPA
     self.is_on_suspension = is_on_suspension
- .   
+.   
