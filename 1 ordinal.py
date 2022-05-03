@@ -4,7 +4,6 @@ w = ord(name[0])
 x = ord(name[1])
 y = ord(name[2])
 z = ord(name[3])
-
 """
 No. 2 - Compute the following equation:
 >>> a

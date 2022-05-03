@@ -6,3 +6,7 @@ print(usefultools.rolldice(10))
   >>> You can find list of python modules in internet 
   ... https://docs.python.org/3/py-modindex.html
 """
+
+from student import student
+
+
