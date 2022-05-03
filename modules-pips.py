@@ -8,5 +8,6 @@ print(usefultools.rolldice(10))
 """
 
 from student import student
-
-
+student1 = student("Jericho", "Computer Science", 1, False)
+student2 = student()
+print(student1.name)
