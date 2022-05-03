@@ -7,7 +7,7 @@ print(usefultools.rolldice(10))
   ... https://docs.python.org/3/py-modindex.html
 """
 
-from student import student
+from student import student #refer to >> student.py
 student1 = student("Jericho", "Computer Science", 1, False)
-student2 = student()
+student2 = student("Fulgent", "Computer Science", 1.9, True)
 print(student1.name)
