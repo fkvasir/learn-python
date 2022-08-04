@@ -61,4 +61,4 @@ def conjugate_gradient(
     tol: float = 1e-8,
 ) -> Any:
     """
-    Returns solution to the linear system np.dot(spd_matrix, x) = b.
+    Returns solution to the linear system np.dot(spd_matrix, x) = b...
