@@ -25,7 +25,7 @@ except:
 """
 try:
   def compute_1():
-    x = x
+    x = w
     k = (x*x*x)/2
     l = 5*float(k)
     m = x*x
