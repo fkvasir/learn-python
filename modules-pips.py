@@ -8,7 +8,7 @@ print(usefultools.rolldice(10))
 """
 
 from student import student #refer to >> student.py
-student1 = student("Jericho", "Computer Science", 1, False)
+student1 = student("Kvasir", "Computer Science", 1, False)
 student2 = student("Fulgent", "Computer Science", 1.9, True)
 print(student1.name)
-print(student2.GPA)
+print(student2.GPA``)
