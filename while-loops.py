@@ -33,3 +33,16 @@ if second == first + 5:
     f += 1
 else:
   print(error.upper)
+
+print("Converting decimals into fraction(range should be 3 interval")
+dcmals = float(input("Enter decimal numbers in a tenth place"))
+error = print("Error: Try again")
+dcmals_2 = float(input("Enter a second decimal number"))
+decimals_to_fraction = dcmals*10
+decimals_to_fraction_2 = dcmals_2*10
+i = 0
+if dcmals_2 == dcmals + 3:
+  while i <= 3:
+    print(dcmals + "/10 "+ "\n" +dcmals_2 + "/10 " )
+else:
+  print("error")
