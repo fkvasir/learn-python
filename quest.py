@@ -18,4 +18,4 @@ def run_test(questions):
     if answer == input(question.answer):
       score += 1
   print("You got (" + str(score) + "/"+ str(len(questions)) + ") right>.<" +" Congratulations!!")
-run_test(questions)
+  run_test(questions)
