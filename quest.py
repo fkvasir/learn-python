@@ -1,13 +1,13 @@
 from multiplechoice import question
 question_prompt =[
-  "What color are the apples?\n(a)Red\n(b)Pink\n(c)Yellow\n(d)Blue\n\n",
+  "What color are the apples?\n(a)Blue\n(b)Pink\n(c)Yellow\n(d)Red\n\n",
   "What is my hobby?\n(a)Sleeping\n(b)Gaming\n(c)Writing\n(d)Reading\n\n",
   
 ]
 
 questions = [
-  question(question_prompt[0], "a"),
-  question(question_prompt[1], "b"),
+  question(question_prompt[0], "d"),
+  question(question_prompt[1], "d"),
   
 ]
 
