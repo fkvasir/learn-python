@@ -13,7 +13,7 @@ questions = [
 
 def run_test(questions):
   score = 0
-  for questions in question:
+  for questions in questions:
     answer = input(question.prompt)
     if answer == input(question.answer):
       score += 1
