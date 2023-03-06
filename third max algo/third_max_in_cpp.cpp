@@ -1,7 +1,7 @@
 // 2021-1370
 #include <iostream>
 #include <vector>
-#include <limits.h>
+#include <limits>
 #include <algorithm>
 
 using namespace std;
