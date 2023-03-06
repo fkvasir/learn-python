@@ -95,3 +95,12 @@ int getThirdMax1(int arr[], int size)
     return arr[0];
   return arr[size - 3];
 }
+int showgetThirdMax1()
+{
+  int arr_1[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2};
+  int len1 = sizeof(arr_1) / sizeof(int);
+  int thirdmax1 = getThirdMax1(arr_1, len1);
+  cout << "The Third Max is\n =>"<< thirdmax1 << endl;
+  return 0;
+}
+
