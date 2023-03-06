@@ -30,7 +30,7 @@ int third_Max(vector<int> &nums)
   }
   return third == LLONG_MIN ? first : third;
 }
-int main()
+int showthird_Max()
 {
   vector<int> nums = {1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2};
   int third_max = third_Max(nums);
@@ -81,7 +81,7 @@ int getThirdMax(int arr[], int size)
 
   return thirdMax;
 }
-int main()
+int showgetThirdMax()
 {
   int arr_1[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2};
   int len1 = sizeof(arr_1) / sizeof(int);
